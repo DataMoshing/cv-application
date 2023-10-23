@@ -1,4 +1,4 @@
-export default function EducationInformation() {
+export default function EducationInfo() {
     return (
         <form>
             <h1>Education</h1>

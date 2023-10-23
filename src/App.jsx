@@ -1,14 +1,16 @@
 // import { useState } from 'react'
 import './styles/App.css'
-import ContactInformation from './components/ContactInformation'
-import EducationInformation from './components/EducationInformation'
+import ContactInfo from './components/ContactInfo'
+import EducationInfo from './components/EducationInfo'
+import WorkExperience from './components/ExperienceInfo'
 
 function App() {
 
   return (
     <>
-      <ContactInformation />
-      <EducationInformation />
+      <ContactInfo />
+      <EducationInfo />
+      <WorkExperience />
     </>
   )
 }

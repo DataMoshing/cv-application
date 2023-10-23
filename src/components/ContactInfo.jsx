@@ -1,4 +1,4 @@
-export default function ContactInformation() {
+export default function ContactInfo() {
     return (
         <form>
             <h1>Contact</h1>
@@ -6,7 +6,6 @@ export default function ContactInformation() {
             <input type="text" placeholder="First Name" />
             <br />
             <br />
-
             <input type="text" placeholder="Last Name" />
             <h3>Email</h3>
             <input type="email" placeholder="Enter email" />
