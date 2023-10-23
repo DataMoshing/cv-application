@@ -1,21 +1,18 @@
-export default function GeneralInfo() {
-    return (
-        <ContactInformation />
-    )
-}
-
-function ContactInformation() {
+export default function ContactInformation() {
     return (
         <form>
-            <h2>Name</h2>
+            <h1>Contact</h1>
+            <h3>Name</h3>
             <input type="text" placeholder="First Name" />
             <br />
+            <br />
+
             <input type="text" placeholder="Last Name" />
-            <h2>Email</h2>
+            <h3>Email</h3>
             <input type="email" placeholder="Enter email" />
-            <h2>Phone number</h2>
+            <h3>Phone number</h3>
             <input type="tel" placeholder="Enter phone number" />
-            <h2>Address</h2>
+            <h3>Address</h3>
             <input type="text" placeholder="City" />
         </form>
     )
