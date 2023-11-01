@@ -1,8 +1,11 @@
 form {
-    max-width: 150px;
+    display: flex;
+    flex-direction: column;
 }
 
-.main-container {
-    display: grid;
+.form-container {
+    /* max-width: 150px; */
+    display: flex;
+    flex-direction: column;
     grid-template-columns: 1fr 1fr;
 }
