@@ -43,7 +43,7 @@ export default function WorkExperience({ company, onCompanyChange, title, onTitl
             <label htmlFor="cv-responsibilities">
                 <span className="label-text">Responsibilities:  </span>
             </label>
-            <textarea
+            <textarea className="resp-textarea"
                 value={responsibilities}
                 onChange={onRespChange}
                 id="cv-responsibilities"
