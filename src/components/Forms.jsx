@@ -5,7 +5,21 @@ import ContactInfo from "./ContactInfo"
 import Skills from "./Skills"
 
 export default function Forms() {
-    const [info, setInfo] = useState({ firstName: "", lastName: "", email: "", phoneNumber: "", degree: "", college: "", edStartDate: "", edEndDate: "", company: "", title: "", workStartDate: "", workEndDate: "", responsibilities: "", skills: "" })
+    const [info, setInfo] = useState({
+        firstName: "",
+        lastName: "",
+        email: "",
+        phoneNumber: "",
+        degree: "", college: "",
+        edStartDate: "",
+        edEndDate: "",
+        company: "",
+        title: "",
+        workStartDate: "",
+        workEndDate: "",
+        responsibilities: "",
+        skills: ""
+    })
 
     const [skills, setSkills] = useState([])
 
