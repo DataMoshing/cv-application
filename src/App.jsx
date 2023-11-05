@@ -1,12 +1,11 @@
 import './styles/App.css'
-import ContactInfo from './components/ContactInfo'
-import EducationInfo from './components/EducationInfo'
+import Forms from "./components/Forms"
 
 function App() {
 
   return (
     <div>
-      <ContactInfo />
+      <Forms />
     </div>
   )
 }
